@@ -40,4 +40,3 @@ if st.button("Detect Cheating"):
     else:
         st.success(f"✅ No Cheating Detected (Confidence: {1 - prob:.2%})")
 
-!pip install streamlit
